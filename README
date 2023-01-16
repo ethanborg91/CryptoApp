@@ -1,0 +1,15 @@
+To run the program properly you must start the program from the LoginUI class. Once the program begins, there will be a popup window that request a username and password.
+The username and password can be found in the credentialsDB text file (DO NOT DELETE/MOVE THIS TEXT FILE). For example, to be granted access you could enter
+"user1" for the username and "1234" as the password. Once access is granted the user can then request trades with
+trading brokers, strategies, and multiple coins seperated with commas in between the cryptocoins code name (Enter BTC for bitcoin).
+
+For Strategy-A the coins needed are BTC and ETH (Entered as "BTC,ETH")
+For Strategy-B the coins needed are DOGE (Entered as "DOGE")
+For Strategy-C the coins needed are ADA (Entered as "ADA")
+For Strategy-D the coins needed are CAKE, XRP, and SOL (Entered as "CAKE,XRP,SOL")
+
+For each strategy above the coins can be entered in any order for example, for Strategy-A it can also be "ETH, BTC"
+When editing a broker row make sure to click outside the text box before performing a trade to have the row updated for the trade.
+If you do not click out of the text box it will still contain its previous value.
+
+Also make sure to not spam the perform trade button to make sure the DataFecther class does not create an error.
